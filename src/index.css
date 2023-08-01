@@ -303,9 +303,14 @@ main {
   line-height: 1.5;
 }
 .tour-info p {
-  margin-bottom: 1.25rem;
   line-height: 1.5;
   color: var(--grey-500);
+  height: 100px;
+  overflow: hidden;
+}
+
+.tour-info p.expand {
+  height: auto;
 }
 .info-btn,
 .delete-btn {
