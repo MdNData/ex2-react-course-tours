@@ -2,6 +2,7 @@
 
 [Tours](https://www.figma.com/file/OnLoM3AzBFaHzSc2iolJS0/Tours?node-id=0%3A1&t=wiRXOlTLN5ehekYI-1)
 
+<<<<<<< HEAD
 ## Steps
 
 #### Setup
@@ -20,6 +21,8 @@ Once the data is loaded, you can set the state of your component to store the to
 
 To implement the "remove tour" functionality, you can add a button to each Tour component that, when clicked, removes the tour from the list of tours. You can achieve this by updating the state of the Tours component to remove the tour from the tours array.
 
+=======
+>>>>>>> 4768d8634ac08c1760f294b0d232f709f62b92ed
 #### Read More
 
 To implement the "read more" functionality, you can add a button to each Tour component that, when clicked, expands the description of the tour. You can achieve this by updating the state of the Tour component to toggle a "read more" flag, and conditionally rendering the full description based on the flag.
